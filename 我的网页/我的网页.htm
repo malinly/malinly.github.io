@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.5,.aximum-scale=2.0,user-scalable=yes"/>
+<title>马琳惠的个人页面</title>
+<style type="text/css">
+	*{margin:0px;padding:0px;}
+	#biao{font-family:ink free;font-style:oblique;font-weight: 700;color:#F94245;font-size:70px;text-align: center;position: relative;top: 150px;}
+	.bg{background-attachment: fixed;width:100%;background-position:center center;bakcground-repeat:no-repeat;background-size:100% 100%;position:relative;z-index: 1;}
+	.scroll{min-height: 100%;position:relative;width:100%;height:700px;z-index:2;}
+	.one{background-image: url(file:///C|/Users/www/Desktop/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/one.jpg);background-position: center;width:100%;height:1000px;}
+	.two{background-image: url(file:///C|/Users/www/Desktop/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/two.jpg);background-repeat: no-repeat;background-position: center;width:100%;height:1000px;}
+	.three{background-image: url(file:///C|/Users/www/Desktop/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/three.jpg);background-repeat: no-repeat;background-position: center;width:100%;height:900px;}
+	#geren{position:relative;top:300px;font-family:segoe script;font-size: 30px;color:#B37D7E;text-align: center;}	
+	.color1{background-color:#C0F7F4;}
+	.color2{background-color:#F2F5BA;}
+	#color11{position:absolute; top:200px; left:150px; width:30%; float:left; font-family:宋体;font-size:18px;line-height: 180%;}
+	#color12{position:absolute; top:200px; right:150px;width:30%;float:right;font-family:宋体;font-size: 17px;line-height: 150%;}
+	.ti{font-family:segoe print; font-weight:500;text-align: center; color:#F94245; font-size:40px;}
+	#box{position:absolute;right:100px;top:150px;width:35%;height:400px;}
+	img{width:100%;height:100%;}
+	.tu{display:none;width:100%;height:100%;}
+	input{color:#695EF3;font-size: 15px;border-width: 0px;}
+	</style>	
+</head>
+<body>
+	<div class="bg one">
+		<img src="file:///C|/Users/www/Desktop/我的网页/头.gif" style="position: absolute;top:20px;left:80px;width:60px;height:60px;"/>
+		<p style="color:aqua; font-size: 20x; position:absolute;right:10px;top:20px;">looking forward to being friends ☛ 1135798736@qq.com</p>
+		<pre id="biao"></pre>
+		<div id="zhu" style="display: none;">welcome  to  my  life</div>
+		<div id="geren">
+		<p>记 录 精 彩 世 界 !</p>
+		</div>
+	</div>
+	<div class="scroll color1">
+		<p class="ti">About Me</p>
+		<div id="color11">
+			<p>姓名：马琳惠！<br/>出生地：湖北<br/>生日：5.5(端午节哦)<br/>兴趣爱好：jazz、hiphop、khop、影视、漫画等<br/>性格：在外静如空气，对内疯如脱缰的野马<br/>电话：xxxxxxxxxxx</p>
+		</div>
+		<div style="position:absolute;top:600px;font-size:20px;text-align: center;width:100%;"><p>往下翻还有更多精彩</p><p>▼<br/>▼</p></div>
+		<div id="color12">
+		  <p>现阶段需要做的事情:<br/>学习c++、算法。<br/>在慢慢的接触画画，希望以后往数媒方向发展。<br/>也给自己自定了计划，每周尽量读一本书。<br/>始终相信一句话，幸福、快乐、荣耀都是自己争取来的</p>
+		</div>
+	</div>
+	
+     <div class="bg two"></div>
+	<div class="scroll color2">
+		<p class="ti">travel</p>
+		<div style="position: relative;top:50px;left:50px; width:40%;font-size: 23px; font-family:华文新魏;line-height: 160%;">
+			<p>我非常喜欢出去旅游，我认为一个人每一年最少都需要出去旅游一次，放松自己的身心。感受一下大自然的美好。去过三峡、武陵源、重庆等地方，每个地方都会给你带来不一样的感觉。<br/>眼尖的你是否发现刚刚有张图是武汉江滩图?<br/>不知道你们喜欢旅游吗，如果你也喜欢的话，我们也许可以成为驴友相约一起去看这世界美好。主页有我的信息哦!</p>
+		</div>
+		<div id="box">
+			<input type="button" class="active" value="玻璃栈道"/>
+			<input type="button" value="铁像"/>
+            <input type="button" value="女儿国"/>
+			<input type="button" value="非遗文化"/>
+			<input type="button" value="恩施大峡谷"/>
+			  <div class="tu" style="display:block;"><img src="file:///C|/Users/www/Desktop/我的网页/0.jpg"/></div>
+			  <div class="tu"><img src="file:///C|/Users/www/Desktop/我的网页/1.jpg"/></div>
+			  <div class="tu"><img src="file:///C|/Users/www/Desktop/我的网页/2.jpg"/></div>
+			  <div class="tu"> <img src="file:///C|/Users/www/Desktop/我的网页/3.jpg"/></div>
+			  <div class="tu"><img src="file:///C|/Users/www/Desktop/我的网页/4.jpg"/></div>
+		</div>
+	</div>
+	<div class="bg three"></div>
+<script language="javascript">
+		var index=0;
+		var word=document.getElementById("zhu").innerHTML;
+		function type(){
+			document.getElementById("biao").innerText=word.substring(0,index++);
+		}
+		setInterval(type,100);
+	
+	window.onload=function(){
+   var odiv=document.getElementById('box');
+   var btn=odiv.getElementsByTagName('input');
+   var tu=odiv.getElementsByTagName('div') ;
+ 
+  for(i=0;i<btn.length;i++)
+   { 
+     btn[i].index=i 
+     btn[i].onclick=function()
+    {
+    for(i=0;i<btn.length;i++)
+     { 
+       btn[i].className='' 
+       tu[i].style.display='none'
+      }
+        this.className='active'
+        tu[this.index].style.display='block'
+    }
+   }
+}
+	</script>
+	</body>
+</html>
